@@ -7,9 +7,9 @@
 //
 // Code generated for Simulink model 'ghost_integrator'.
 //
-// Model version                  : 2.45
+// Model version                  : 2.46
 // Simulink Coder version         : 9.4 (R2020b) 29-Jul-2020
-// C/C++ source code generated on : Wed Oct  7 22:04:39 2020
+// C/C++ source code generated on : Fri Oct  9 19:37:19 2020
 //
 // Target selection: ert.tlc
 // Embedded hardware selection: Generic->Unspecified (assume 32-bit Generic)
@@ -142,7 +142,7 @@ void ghost_integrator_step(void)
           ghost_integrator_B.Adjustment = ghost_integrator_B.In1_b.Point.X;
           ghost_integrator_B.reset = 1U;
         } else {
-          if ((ghost_integrator_DW.temporalCounter_i1 >= 1500U) && (tmp < 0.0))
+          if ((ghost_integrator_DW.temporalCounter_i1 >= 1500U) && (tmp < -30.0))
           {
             ghost_integrator_DW.is_c3_ghost_integrator =
               ghost_integrator_IN_slow_down;

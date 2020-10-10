@@ -7,9 +7,9 @@
 //
 // Code generated for Simulink model 'ghost_integrator'.
 //
-// Model version                  : 2.45
+// Model version                  : 2.46
 // Simulink Coder version         : 9.4 (R2020b) 29-Jul-2020
-// C/C++ source code generated on : Wed Oct  7 22:04:39 2020
+// C/C++ source code generated on : Fri Oct  9 19:37:19 2020
 //
 // Target selection: ert.tlc
 // Embedded hardware selection: Generic->Unspecified (assume 32-bit Generic)
